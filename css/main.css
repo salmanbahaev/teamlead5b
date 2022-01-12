@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
           justify-content: center;
 }
 
-a.animated-button:link:after, a.animated-button:visited:after {
+.promo__prod-desc-btn a:link:after, .promo__prod-desc-btn a:visited:after {
   content: "";
   position: absolute;
   height: 0%;
@@ -186,16 +186,16 @@ a.animated-button:link:after, a.animated-button:visited:after {
   transition: all 0.75s ease 0s;
 }
 
-a:link:hover, a:visited:hover {
+.promo__prod-desc-btn a:link:hover, .promo__prod-desc-btn a:visited:hover {
   color: #FFF;
   text-shadow: none;
 }
 
-a:hover:after, a:visited:hover:after {
+.promo__prod-desc-btn a:hover:after, .promo__prod-desc-btn a:visited:hover:after {
   height: 450%;
 }
 
-a:link, a:visited {
+.promo__prod-desc-btn a:link, .promo__prod-desc-btn a:visited {
   position: relative;
   display: block;
   -webkit-box-align: center;
@@ -218,7 +218,7 @@ a:link, a:visited {
   transition: all 1s ease;
 }
 
-a {
+.promo__prod-desc-btn a {
   color: #555;
   cursor: pointer;
   display: block;
@@ -228,19 +228,19 @@ a {
   transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 
-a:hover {
+.promo__prod-desc-btn a:hover {
   color: white;
   background-color: transparent;
   text-shadow: none;
 }
 
-a:hover:before {
+.promo__prod-desc-btn a:hover:before {
   bottom: 0%;
   top: auto;
   height: 100%;
 }
 
-a:before {
+.promo__prod-desc-btn a:before {
   display: block;
   position: absolute;
   left: 0px;
